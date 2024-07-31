@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="conversations_list_title">MFWhatsApp</string>
+    <string-array name="conversations_tab_row_options">
+        <item>Status</item>
+        <item>Chats</item>
+        <item>Calls</item>
+    </string-array>
+    <string name="conversations_icon_menu_description">Menu</string>
+    <string name="conversations_icon_add_description">Add</string>
+    <string name="conversations_tab_status_title">Status</string>
+    <string name="conversations_tab_chats_title">Chats</string>
+    <string name="conversations_tab_calls_title">Calls</string>
+    <string name="chat_title">Chat with %s</string>
+
+    <!--  Avatar  -->
+    <string name="avatar_base_description">User avatar</string>
+</resources>

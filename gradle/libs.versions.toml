@@ -1,0 +1,75 @@
+[versions]
+activityComposeVersion = "1.6.1"
+agp = "8.5.0"
+coilCompose = "2.3.0"
+hiltAndroid = "2.48"
+kotlin = "1.9.0"
+coreKtx = "1.13.1"
+junit = "4.13.2"
+junitVersion = "1.2.1"
+espressoCore = "3.6.1"
+ktorClientAndroid = "2.2.4"
+ktorClientContentNegotiation = "2.2.4"
+ktorClientOkhttp = "2.2.4"
+ktorClientWebsockets = "2.2.4"
+ktorSerializationKotlinxJson = "2.2.4"
+lifecycleRuntimeKtx = "2.8.4"
+activityCompose = "1.9.1"
+composeBom = "2024.04.01"
+appcompat = "1.7.0"
+material = "1.12.0"
+foundationAndroid = "1.6.8"
+materialVersion = "1.6.8"
+
+[libraries]
+androidx-activity-compose-v161 = { module = "androidx.activity:activity-compose", version.ref = "activityComposeVersion" }
+androidx-compose-foundation-foundation = { module = "androidx.compose.foundation:foundation" }
+androidx-compose-foundation-foundation2 = { module = "androidx.compose.foundation:foundation" }
+androidx-compose-foundation-foundation3 = { module = "androidx.compose.foundation:foundation" }
+androidx-compose-foundation-foundation4 = { module = "androidx.compose.foundation:foundation" }
+androidx-compose-foundation-foundation5 = { module = "androidx.compose.foundation:foundation" }
+androidx-compose-material-material = { module = "androidx.compose.material:material", version.ref = "materialVersion" }
+androidx-compose-material-material2 = { module = "androidx.compose.material:material" }
+androidx-compose-material-material3 = { module = "androidx.compose.material:material" }
+androidx-compose-material-material4 = { module = "androidx.compose.material:material" }
+androidx-compose-material-material5 = { module = "androidx.compose.material:material" }
+androidx-compose-material-material6 = { module = "androidx.compose.material:material" }
+androidx-compose-ui-ui = { module = "androidx.compose.ui:ui" }
+androidx-compose-ui-ui2 = { module = "androidx.compose.ui:ui" }
+androidx-compose-ui-ui3 = { module = "androidx.compose.ui:ui" }
+androidx-compose-ui-ui4 = { module = "androidx.compose.ui:ui" }
+androidx-core-ktx = { group = "androidx.core", name = "core-ktx", version.ref = "coreKtx" }
+androidx-foundation = { module = "androidx.compose.foundation:foundation" }
+androidx-hilt-navigation-compose = { module = "androidx.hilt:hilt-navigation-compose" }
+androidx-material = { module = "androidx.compose.material:material" }
+coil-compose = { module = "io.coil-kt:coil-compose", version.ref = "coilCompose" }
+foundation = { module = "androidx.compose.foundation:foundation" }
+hilt-android = { module = "com.google.dagger:hilt-android", version.ref = "hiltAndroid" }
+junit = { group = "junit", name = "junit", version.ref = "junit" }
+androidx-junit = { group = "androidx.test.ext", name = "junit", version.ref = "junitVersion" }
+androidx-espresso-core = { group = "androidx.test.espresso", name = "espresso-core", version.ref = "espressoCore" }
+androidx-lifecycle-runtime-ktx = { group = "androidx.lifecycle", name = "lifecycle-runtime-ktx", version.ref = "lifecycleRuntimeKtx" }
+androidx-activity-compose = { group = "androidx.activity", name = "activity-compose", version.ref = "activityCompose" }
+androidx-compose-bom = { group = "androidx.compose", name = "compose-bom", version.ref = "composeBom" }
+androidx-ui = { group = "androidx.compose.ui", name = "ui" }
+androidx-ui-graphics = { group = "androidx.compose.ui", name = "ui-graphics" }
+androidx-ui-tooling = { group = "androidx.compose.ui", name = "ui-tooling" }
+androidx-ui-tooling-preview = { group = "androidx.compose.ui", name = "ui-tooling-preview" }
+androidx-ui-test-manifest = { group = "androidx.compose.ui", name = "ui-test-manifest" }
+androidx-ui-test-junit4 = { group = "androidx.compose.ui", name = "ui-test-junit4" }
+androidx-material3 = { group = "androidx.compose.material3", name = "material3" }
+androidx-appcompat = { group = "androidx.appcompat", name = "appcompat", version.ref = "appcompat" }
+ktor-client-android = { module = "io.ktor:ktor-client-android", version.ref = "ktorClientAndroid" }
+ktor-client-content-negotiation = { module = "io.ktor:ktor-client-content-negotiation", version.ref = "ktorClientContentNegotiation" }
+ktor-client-okhttp = { module = "io.ktor:ktor-client-okhttp", version.ref = "ktorClientOkhttp" }
+ktor-client-websockets = { module = "io.ktor:ktor-client-websockets", version.ref = "ktorClientWebsockets" }
+ktor-serialization-kotlinx-json = { module = "io.ktor:ktor-serialization-kotlinx-json", version.ref = "ktorSerializationKotlinxJson" }
+material = { group = "com.google.android.material", name = "material", version.ref = "material" }
+androidx-foundation-android = { group = "androidx.compose.foundation", name = "foundation-android", version.ref = "foundationAndroid" }
+ui = { module = "androidx.compose.ui:ui" }
+
+[plugins]
+android-application = { id = "com.android.application", version.ref = "agp" }
+jetbrains-kotlin-android = { id = "org.jetbrains.kotlin.android", version.ref = "kotlin" }
+android-library = { id = "com.android.library", version.ref = "agp" }
+
