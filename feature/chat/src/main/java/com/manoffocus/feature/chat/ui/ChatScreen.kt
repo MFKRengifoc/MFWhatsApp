@@ -79,7 +79,7 @@ fun SendMessageBox(sendMessage: (String)->Unit) {
             Icon(
                 imageVector = Icons.Default.Send,
                 tint = MaterialTheme.colors.primary,
-                contentDescription = "Send message"
+                contentDescription = stringResource(R.string.send_message_description)
             )
         }
     }

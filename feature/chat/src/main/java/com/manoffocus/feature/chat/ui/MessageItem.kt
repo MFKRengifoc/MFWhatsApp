@@ -18,7 +18,7 @@ import androidx.compose.ui.unit.sp
 import coil.compose.AsyncImage
 import com.manoffocus.feature.chat.ui.model.Message
 import com.manoffocus.feature.chat.ui.model.MessageContent
-import com.manoffocus.common.framework.ui.AvatarComponent
+import com.manoffocus.common.framework.ui.Avatar
 
 @Composable
 fun MessageItem(message: Message) {
@@ -27,14 +27,13 @@ fun MessageItem(message: Message) {
         horizontalArrangement = if (message.isMine) Arrangement.End else Arrangement.Start
     ) {
         if (!message.isMine) {
-            AvatarComponent(
+            Avatar(
                 imageUrl = message.senderAvatar,
                 size = 40.dp,
                 contentDescription = "${message.senderName}'s avatar"
             )
             Spacer(modifier = Modifier.width(8.dp))
         }
-
         Column {
             if (message.isMine) {
                 Spacer(modifier = Modifier.height(8.dp))

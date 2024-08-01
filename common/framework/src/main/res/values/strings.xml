@@ -15,4 +15,7 @@
 
     <!--  Avatar  -->
     <string name="avatar_base_description">User avatar</string>
+
+    <!--  Send message  -->
+    <string name="send_message_description">Send message</string>
 </resources>

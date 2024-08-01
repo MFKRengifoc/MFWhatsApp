@@ -18,7 +18,14 @@ fun ConversationList(
 ) {
     LazyColumn {
         items(conversations){ conversation ->
-            ConversationItem(conversation = conversation)
+            Row(
+                modifier = Modifier.fillMaxWidth()
+                    .clickable { onConversationClick(conversation.id) }
+            ) {
+                ConversationItem (
+                    conversation = conversation
+                )
+            }
         }
     }
 }

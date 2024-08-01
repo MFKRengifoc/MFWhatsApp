@@ -44,10 +44,10 @@ dependencies {
     androidTestImplementation libs.androidx.junit
     androidTestImplementation libs.androidx.espresso.core
 
-
+    implementation project(':common:domain')
     implementation project(':common:framework')
 
-    implementation libs.androidx.compose.foundation.foundation5
+    implementation libs.androidx.compose.foundation.foundation
     implementation libs.androidx.compose.material.material
     implementation libs.androidx.compose.ui.ui
     implementation 'androidx.activity:activity-compose:1.6.1'

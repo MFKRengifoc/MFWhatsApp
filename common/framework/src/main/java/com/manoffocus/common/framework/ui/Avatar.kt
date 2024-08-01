@@ -12,7 +12,7 @@ import coil.compose.AsyncImage
 import com.manoffocus.common.framework.R
 
 @Composable
-fun AvatarComponent(
+fun Avatar(
     modifier: Modifier = Modifier,
     imageUrl: String,
     size: Dp,

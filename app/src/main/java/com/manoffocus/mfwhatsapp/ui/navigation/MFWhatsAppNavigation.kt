@@ -32,7 +32,9 @@ private fun NavGraphBuilder.addConversationsList(navController: NavHostControlle
 
     composable(MFScreenRoutes.ConversationsList) {
         ConversationsListScreen(
-            onNewConversationClick = { navController.navigate(MFScreenRoutes.NewConversation) },
+            onNewConversationClick = {
+                navController.navigate(MFScreenRoutes.NewConversation)
+                                     },
             onConversationClick = { chatId ->
                 navController.navigate(MFScreenRoutes.Chat.replace("{chatId}", chatId))
             }

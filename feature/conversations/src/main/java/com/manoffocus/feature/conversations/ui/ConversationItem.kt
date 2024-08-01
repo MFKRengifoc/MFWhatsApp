@@ -18,6 +18,7 @@ import androidx.compose.ui.draw.drawBehind
 import androidx.compose.ui.text.font.FontWeight
 import androidx.compose.ui.text.style.TextAlign
 import androidx.compose.ui.unit.dp
+import com.manoffocus.common.framework.ui.Avatar
 import com.manoffocus.feature.conversations.ui.model.Conversation
 
 @Composable
@@ -29,7 +30,7 @@ fun ConversationItem(conversation: Conversation) {
         verticalAlignment = Alignment.CenterVertically,
         horizontalArrangement = Arrangement.SpaceBetween
     ) {
-        AvatarComponent(
+        Avatar(
             imageUrl = conversation.avatar,
             size = 50.dp,
             contentDescription = "${conversation.name}'s avatar"

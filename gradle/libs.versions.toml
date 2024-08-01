@@ -38,6 +38,7 @@ androidx-compose-ui-ui = { module = "androidx.compose.ui:ui" }
 androidx-compose-ui-ui2 = { module = "androidx.compose.ui:ui" }
 androidx-compose-ui-ui3 = { module = "androidx.compose.ui:ui" }
 androidx-compose-ui-ui4 = { module = "androidx.compose.ui:ui" }
+androidx-compose-ui-ui5 = { module = "androidx.compose.ui:ui" }
 androidx-core-ktx = { group = "androidx.core", name = "core-ktx", version.ref = "coreKtx" }
 androidx-foundation = { module = "androidx.compose.foundation:foundation" }
 androidx-hilt-navigation-compose = { module = "androidx.hilt:hilt-navigation-compose" }
