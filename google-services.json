@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "1045895008811",
+    "project_id": "mfwhatsapp-d09ef",
+    "storage_bucket": "mfwhatsapp-d09ef.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1045895008811:android:b0f671119584d4441b106e",
+        "android_client_info": {
+          "package_name": "com.manoffocus.mfwhatsapp"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCOFoG3rblmD6AEa9fPJ75cFqrxR1MYLjg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
