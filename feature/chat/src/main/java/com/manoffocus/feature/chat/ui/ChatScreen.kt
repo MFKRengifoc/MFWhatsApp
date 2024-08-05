@@ -26,7 +26,6 @@ fun ChatScreen(
 ) {
     val messages = getFakeMessages()// by viewModel.messages.collectAsState()
     val uiState by viewModel.uiState.collectAsState()
-
     LaunchedEffect(Unit) {
         viewModel.loadChatInformation(chatId.orEmpty())
     }
@@ -35,7 +34,7 @@ fun ChatScreen(
         topBar = {
             TopAppBar(
                 title = {
-                    Text(stringResource(R.string.chat_title, "Alice"))//uiState.name.orEmpty()))
+                    Text(stringResource(R.string.chat_title, uiState.name.orEmpty()))
                 }
             )
         },

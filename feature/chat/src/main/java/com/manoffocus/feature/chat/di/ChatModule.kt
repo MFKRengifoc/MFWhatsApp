@@ -3,6 +3,7 @@ package com.manoffocus.feature.chat.di
 import android.content.Context
 import com.manoffocus.feature.chat.data.network.WebsocketClient
 import com.manoffocus.feature.chat.data.network.RestClient
+import com.manoffocus.feature.chat.data.network.datasource.FirebaseFirestoreProvider
 import com.manoffocus.feature.chat.data.network.repository.ChatRoomRepository
 import com.manoffocus.feature.chat.data.network.repository.MessagesRepository
 import com.manoffocus.feature.chat.domain.IChatRoomRepository
@@ -53,6 +54,11 @@ class ChatModule {
     @Named(API_CHAT_ROOM_URL_NAME)
     fun providesApiChatUrl(): String {
         return API_CHAT_ROOM_URL
+    }
+    @Provides
+    @Singleton
+    fun providesFirebaseFirestoreProvider(@ApplicationContext context: Context): FirebaseFirestoreProvider {
+        return FirebaseFirestoreProvider(context = context)
     }
 }
 
