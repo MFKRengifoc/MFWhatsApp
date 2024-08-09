@@ -50,6 +50,7 @@ dependencies {
 
     implementation project(':common:framework')
     implementation project(':common:domain')
+    implementation project(':common:data')
 
     def composeBom = platform('androidx.compose:compose-bom:2023.03.00')
     implementation composeBom
@@ -77,6 +78,10 @@ dependencies {
     implementation libs.firebase.auth
     implementation libs.firebase.firestore
     implementation libs.firebase.messaging
+    implementation libs.firebase.storage.ktx
+    implementation libs.kotlinx.coroutines.core
+    implementation libs.kotlinx.coroutines.play.services.v160
+    implementation libs.gson
 
     implementation 'androidx.core:core-ktx:1.7.0'
     implementation 'androidx.appcompat:appcompat:1.6.0'

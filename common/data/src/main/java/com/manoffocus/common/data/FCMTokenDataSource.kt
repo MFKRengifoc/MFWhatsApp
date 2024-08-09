@@ -4,7 +4,7 @@ import com.google.firebase.messaging.FirebaseMessaging
 import kotlinx.coroutines.tasks.await
 import javax.inject.Inject
 
-class FCMTokenDataSource @Inject constructor(
+class FCMTokenDataSource (
     val firebaseMessaging: FirebaseMessaging = FirebaseMessaging.getInstance()
 ) {
     suspend fun getFcmToken(): String? {
